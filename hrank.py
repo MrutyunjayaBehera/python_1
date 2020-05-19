@@ -1,22 +1,20 @@
+#TASK
+
+Read an integer N.
+
+Without using any string methods, try to print the following:
+123...N
+
+Note that "..." represents the values in between.
+
+#CODE
+
 import math
 import os
 import random
 import re
 import sys
 
-
-"""n = input("enter the  number: ")
-n = int(n)
-
-if n % 2 != 0:
-	print("Weird")
-else:
-	if n > 2 and n < 5:
-		print("Not Weird")
-	elif n > 6 and n < 20:
-		print("Weird")
-	elif n > 20:
-		print("Not Weird")"""
 
 n = input("enter the number: ")
 n = int(n)
